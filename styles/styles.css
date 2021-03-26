@@ -1,0 +1,180 @@
+* {
+  color: #000;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  background: #CCC;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+/*unvisted link */
+a:link {
+  color: #000000;
+}
+
+/* visited link */
+a:visited {
+  color: #000000;
+}
+
+/* mouse over link */
+a:hover {
+  color: grey;
+}
+
+/* selected link */
+a:active {
+  color: white;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 1px
+}
+
+.foot a:link {
+  color: white
+}
+
+.foot a:visited {
+  color: white
+}
+
+.foot a:hover {
+  color: grey
+}
+
+.foot a:active {
+  color: grey
+}
+
+.foot p {
+  color: #fff;
+}
+
+.nav ul {
+  list-style: none;
+  background: #000000;
+  text-align: center;
+  padding: 0: margin:0;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  width: 100px;
+  display: block;
+  padding: 15px;
+  font-size: 17px;
+  font-family: Helvetic;
+}
+
+.nav a:hover {
+  background: #999;
+  transition: 0.4s;
+}
+
+.center {
+  text-align: center;
+  list-style-position: inside;
+}
+
+.container {
+  max-width: 100%;
+  margin: auto;
+  background: #A4A4A4;
+  overflow: auto;
+}
+
+.gallery {
+  margin: 5px;
+  float: left;
+  width: 32%;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.box {
+  width: auto;
+  height: 500px;
+  padding: 0px;
+  margin: 0px auto;
+  box-shadow: 0px 0px 10px 2px grey;
+  background: url("../images/PhotoIntro.gif") no-repeat center center fixed;
+  background-size: cover;
+}
+
+#title mark {
+  font-size: 48px;
+  padding: 5px;
+}
+
+#check {
+  background-color: rgba(0, 0, 0, 1);
+  width: 500px;
+  color: white;
+  padding: 1;
+}
+
+a[href="https://www.youtube.com/channel/UCN6IefCvGtFLKLXTYAGl_zQ/videos?view_as=subscriber"] {
+  color: white;
+  text-decoration: none;
+}
+
+#warning {
+  width: auto;
+  text-align: center;
+  font-style: oblique;
+}
+
+.box mark {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 1px;
+}
+
+.equipment {
+  width: auto;
+  height: 500px;
+  padding: 50px;
+  margin: 0px auto;
+  box-shadow: 0px 0px 10px 2px grey;
+  background: url("../images/equipment.jpeg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.equipment hr {
+  border: 0;
+  width: 40%;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.center>li {
+  font-style: oblique;
+  font-size: 20px;
+  padding: 3px;
+}
